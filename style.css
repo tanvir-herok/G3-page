@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header{
+    background-color: antiquewhite;
+    padding: 0 210px;
+    max-width: 1440px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:sticky;
+
+}
+.nav-title{
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+nav>ul li{
+    display: inline;
+    text-decoration: none;
+    padding: 20px;
+}
+ nav a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s ease-in-out;
+ }
+ nav a:hover{
+    opacity: 0.6;
+    border-bottom: 2px solid aqua;
+    transition: 0.3s ease-in-out;
+ }
+
+ .banner-image{
+    width: 100%;
+}
+
+.banner-content{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.banner-title{
+    font-weight: 700;
+    font-size: 4rem;
+}
+.btn-primary{
+background-color: orange;
+color: white;
+border: none;
+padding: 9px 15px;
+border-radius: 8px;
+
+}
+@media screen and (max-width:576px){
+header{
+    padding: 20px;
+}
+nav{
+    flex-direction: column;
+}
+
+}
+@media screen and (min-width:577px) and (max-width:960) {
+header{
+    padding: 50px;
+
+}
+nav{
+    flex-direction: column;
+}
+
+}
+.text-primary{
+    color: #FF900E;
+}
+
+/* dark 02 */
+.text-gray{
+    color: #424242;
+}
+
+/* dark03 */
+.text-light-gray{
+    color: #727272;
+}
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 240px;
+}
+
+main > section{
+    margin-top: 130px;
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+
+}
+.our-features{
+    margin-left: 130px;
+    max-width: 530px;
+}
+.display-flex{
+    display: flex;
+    align-items: center;
+}
+main > section > div img{
+    style:50px 50px;
+}
+.teams{
+    align-items: center;
+}
+
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.our-features{
+    margin-left: 130px;
+    max-width: 530px;
+}
+
+#quick-list{
+    font-weight: 500;
+}
+
+/* features section related styles */
+
+.features{
+    gap: 140px;
+}
+
+#feature-section-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.feature-card{
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+}
+
+.feature-card .feature-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#experience-badge{
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+
+#experience-year{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.featured-architect img{
+    width: 100%;
+}
+.sfdet{
+  text-align: center;
+}
+
+.facts-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.fact-card{
+    border: 1px solid #FF900E;
+    width: 240px;
+    height: 240px;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.fact-number{
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.fact-name{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.fact-description{
+    max-width: 540px;
+}
+.sponsor-container{
+    align-items: center;
+    text-align: center;
+}
+.sponsors img{
+    padding: 10px;
+    margin-top: 10px;
+    color: #727272;
+    margin-bottom: 20px;
+    transition: 0.4s ease-in-out;
+}
+
+footer>h3{
+    text-align: center;
+    margin-top: 30px;
+    background-color: #f1cca1;
+    border: none;
+    border-radius: 5px;
+    padding: 5px ;
+    margin: 0 270px;
+}
+.sponsors:hover{
+
+    transition: 0.4s ease-in-out;
+}
